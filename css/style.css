@@ -251,3 +251,87 @@ body {
     font-size: 2rem;
   }
 }
+/* skills-section */
+.skills-content{
+  background: hsl(225.33deg 60% 14.71%);
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 100px;
+  gap: 30px;
+}
+.skills-content h4{
+  color: #1e3a8a;
+}
+.tech-icons{
+  display: flex;
+  gap: 20px;
+  border: 2px solid #2a6ad8;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+.tech-icons i{
+  font-size: 44px;
+}
+
+.tech-icons i {
+  font-size: 60px;
+  margin: 20px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* HTML */
+.tech-icons i:nth-of-type(1) {
+  color: rgb(255, 77, 0);
+}
+
+/* CSS */
+.tech-icons i:nth-of-type(2) {
+  color: rgb(0, 110, 255);
+}
+
+/* Bootstrap */
+.tech-icons i:nth-of-type(3) {
+  color: rgb(204, 0, 255);
+}
+
+/* JavaScript */
+.tech-icons i:nth-of-type(4) {
+  color: rgb(255, 255, 0);
+}
+
+/* React */
+.tech-icons i:nth-of-type(5) {
+  color: rgb(0, 255, 255);
+}
+
+/* Hover Effect */
+.tech-icons i:hover {
+  transform: scale(1.15) translateY(-8px);
+  text-shadow:
+    0 0 10px currentColor,
+    0 0 20px currentColor,
+    0 0 40px currentColor;
+}
+.tools{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.tools li{
+  /* width: 10%; */
+  background: #081120;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: .2px solid #fff;
+}
+.tools li:hover{
+  color: #0ea5e9;
+  border-color:#0ea5e9 ;
+  cursor: pointer;
+}
