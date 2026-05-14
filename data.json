@@ -6,7 +6,7 @@
       "category": "React.js Project",
       "description": "Modern e-commerce clothing store built with React.js featuring cart management, product filtering, and responsive UI.",
 
-      "image": "images/ecommerce.png",
+      "image": "../img/Ecommerce.png",
 
       "technologies": [
         "React.js",
@@ -15,7 +15,7 @@
         "JavaScript"
       ],
 
-      "liveDemo": "https://your-live-demo-link.com",
+      "liveDemo": "https://sixteen-clothing-shop.netlify.app/",
 
       "github": "https://github.com/Abdo1454"
     },
@@ -26,7 +26,7 @@
       "category": "API Integration",
       "description": "Weather application that fetches real-time weather data using external APIs with dynamic UI updates.",
 
-      "image": "images/weather.png",
+      "image": "../img/whether-app.png",
 
       "technologies": [
         "JavaScript",
@@ -35,9 +35,9 @@
         "HTML5"
       ],
 
-      "liveDemo": "https://your-live-demo-link.com",
+      "liveDemo": " https://abdo1454.github.io/to-do-app/",
 
-      "github": "https://github.com/Abdo1454"
+      "github": "https://github.com/Abdo1454/to-do-app"
     },
 
     {
@@ -46,7 +46,7 @@
       "category": "JavaScript Application",
       "description": "Interactive shopping cart system with quantity management and real-time total price calculations.",
 
-      "image": "images/cart.png",
+      "image": "../img/productCart.png",
 
       "technologies": [
         "JavaScript",
@@ -55,7 +55,7 @@
         "CSS3"
       ],
 
-      "liveDemo": "https://your-live-demo-link.com",
+      "liveDemo": "https://producttttt.netlify.app/",
 
       "github": "https://github.com/Abdo1454"
     },
@@ -66,7 +66,7 @@
       "category": "CRUD Application",
       "description": "Task management application with CRUD operations and dynamic DOM manipulation for efficient task tracking.",
 
-      "image": "images/todo.png",
+      "image": "../img/tsaks.png",
 
       "technologies": [
         "HTML5",
