@@ -1,0 +1,83 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Clothing Store",
+      "category": "React.js Project",
+      "description": "Modern e-commerce clothing store built with React.js featuring cart management, product filtering, and responsive UI.",
+
+      "image": "images/ecommerce.png",
+
+      "technologies": [
+        "React.js",
+        "Bootstrap 4",
+        "REST API",
+        "JavaScript"
+      ],
+
+      "liveDemo": "https://your-live-demo-link.com",
+
+      "github": "https://github.com/Abdo1454"
+    },
+
+    {
+      "id": 2,
+      "title": "Real-Time Weather App",
+      "category": "API Integration",
+      "description": "Weather application that fetches real-time weather data using external APIs with dynamic UI updates.",
+
+      "image": "images/weather.png",
+
+      "technologies": [
+        "JavaScript",
+        "Fetch API",
+        "CSS3",
+        "HTML5"
+      ],
+
+      "liveDemo": "https://your-live-demo-link.com",
+
+      "github": "https://github.com/Abdo1454"
+    },
+
+    {
+      "id": 3,
+      "title": "Shopping Cart System",
+      "category": "JavaScript Application",
+      "description": "Interactive shopping cart system with quantity management and real-time total price calculations.",
+
+      "image": "images/cart.png",
+
+      "technologies": [
+        "JavaScript",
+        "State Management",
+        "HTML5",
+        "CSS3"
+      ],
+
+      "liveDemo": "https://your-live-demo-link.com",
+
+      "github": "https://github.com/Abdo1454"
+    },
+
+    {
+      "id": 4,
+      "title": "Task Management App",
+      "category": "CRUD Application",
+      "description": "Task management application with CRUD operations and dynamic DOM manipulation for efficient task tracking.",
+
+      "image": "images/todo.png",
+
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "DOM Manipulation"
+      ],
+
+      "liveDemo": "https://your-live-demo-link.com",
+
+      "github": "https://github.com/Abdo1454"
+    }
+  ]
+}
