@@ -417,11 +417,20 @@ body {
 
   backdrop-filter: blur(4px);
 }
-
+.category{
+  color: #0ea5e9;
+}
 .project-card:hover .links-project {
   opacity: 1;
 }
-
+.tech-project{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.tech-project p{
+  color: #0ea5e9;
+}
 /* TEXT */
 
 .links-project h3 {
@@ -429,13 +438,13 @@ body {
   font-size: 1.7rem;
 }
 
-.project-card p:nth-of-type(1) {
+/* .project-card p:nth-of-type(1) {
   color: #38bdf8;
   font-size: 0.9rem;
   letter-spacing: 1px;
-}
+} */
 
-.project-card p:nth-of-type(2) {
+.desc{
   color: #cbd5e1;
   font-size: 0.95rem;
   text-align: center;

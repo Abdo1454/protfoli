@@ -44,7 +44,7 @@ function  displayProjects(projects){
 
         </div>
 
-        <p>
+        <p class="category">
           ${project.category}
         </p>
 
@@ -52,7 +52,7 @@ function  displayProjects(projects){
           ${project.title}
         </h4>
 
-        <p>
+        <p class="desc">
           ${project.description}
         </p>
 

@@ -62,7 +62,7 @@
 
     {
       "id": 4,
-      "title": "Task Management App",
+     "title": "Task Management App",
       "category": "CRUD Application",
       "description": "Task management application with CRUD operations and dynamic DOM manipulation for efficient task tracking.",
 
@@ -78,6 +78,43 @@
       "liveDemo": "https://your-live-demo-link.com",
 
       "github": "https://github.com/Abdo1454"
-    }
+    },
+    {
+      "id": 5,
+        "title": "Calculator App",
+      "category": "JavaScript Project",
+      "description": "Interactive calculator application supporting real-time mathematical operations with responsive and modern UI.",
+      "image": "../img/calc.png",
+
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "DOM Manipulation"
+      ],
+
+      "liveDemo": "https://abdo1454.github.io/clac/",
+
+      "github": "https://github.com/Abdo1454/clac"
+    },
+    {
+    "id": 6,
+    "title": "Conference Ticket Generator",
+    "category": "Frontend Challenge",
+    "description": "Dynamic ticket generator application with form validation and real-time ticket preview functionality.",
+
+    "image": "../img/ticket.png",
+
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Form Validation"
+    ],
+
+    "liveDemo": "https://tickettt.netlify.app/index.html",
+
+    "github": "https://github.com/Abdo1454/challenge02new"
+  }
   ]
 }
