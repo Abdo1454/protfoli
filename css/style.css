@@ -486,3 +486,55 @@ body {
 .github-btn:hover {
   transform: translateY(-3px);
 }
+/* services-content */
+.services-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.services-content h4{
+  color: #0ea5e9;
+}
+/* cards-services */
+.cards-services{
+  padding: 50px 0px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+
+}
+.card-ser{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background: #0b1841;
+  gap: 30px;
+  border-radius:10px ;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.card-ser i{
+  color: #0ea5e9;
+  font-size: 50px;
+}
+.ser{
+  font-size: 14px;
+  text-align: left;
+}
+.card-ser span i {
+  font-size: 15px;
+}
+.services-content a{
+  background: #0ea5e9;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+@media (max-width:391) {
+  .card-ser{
+    width: 600px;
+  }
+}
