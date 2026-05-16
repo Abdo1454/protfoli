@@ -538,3 +538,144 @@ gap: 20px;
     width: 600px;
   }
 }
+
+/* contact */
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+/* contact-content */
+.contact-content{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.info  .info-contact{
+  background: #0b1841;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  height: 80px;
+  
+}
+.info-contact i{
+  font-size: 20px;
+  background: #004466;
+  width: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #0ea5e9;
+
+}
+.info-contact a{
+  color: #fff;
+  text-decoration: none;
+} 
+.info-contact p{
+  color: #94a3b8;
+}
+
+.info-small{
+gap: 15px
+}
+.with-me{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.icon-contact{
+  display: flex;
+  gap: 20px;
+}
+.icon-contact a{
+  color: #fff;
+  background: #004466;
+    width: 50px;
+    font-size: 20px;
+  border-radius: 10px;
+  height: 40px;
+  display: inline-block;
+  padding: 10px;  
+}
+.whatsapp-btn{
+  width: 500px;
+  max-width: 100%;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 15px 20px;
+
+  background: hsl(142.13deg 76.22% 36.27%);
+  color: white;
+
+  border-radius: 12px;
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.whatsapp-btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(37, 211, 102, 0.4);
+}
+
+/* form-content  */
+.form-content{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #0b1841;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+input{
+  background: #081120;
+  height: 50px;
+  width: 300px;
+  color: #fff;
+  border: 2px solid #fff ;
+  border-radius:10px ;
+
+}
+.main-form{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: #fff;
+  
+}
+ .subject{
+  width: 650px;
+  height: 50px;
+}
+textarea{
+  width: 650px;
+  height: 150px;
+  background: #081120;
+  color: #fff;
+ border: 2px solid #fff ;
+  border-radius:10px ;
+}
+.form-content button{
+  background: #0ea5e9;
+  height: 50px;
+  border-radius:10px ;
+
+  /* height: 650px; */
+}
