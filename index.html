@@ -305,20 +305,20 @@
         </div>
 
 
-        <form class="form-content" >
+        <form class="form-content" id="contactForm" >
           <div class="main-form">
 
             <div class="input-content">
               <label>Your Name</label>
               <br>
               <br>
-              <input type="text" placeholder="John Doe">
+              <input type="text" placeholder="John Doe" id="name">
             </div>
             <div class="input-content">
            <label>Email Address</label>
               <br>
               <br>
-              <input type="email" placeholder="john@example.com">
+              <input type="email" placeholder="john@example.com" id="email">
             </div>
           </div>
          
@@ -332,9 +332,11 @@
             <label>Message</label>
             <br>
             <br>
-            <textarea placeholder="Tell me about your project..."></textarea>
+            <textarea  id="massage" placeholder="Tell me about your project..."></textarea>
           </div>
-          <button> <i class="fa-regular fa-paper-plane"></i> Send Message</button>
+         <button type="submit" id="send">
+  <i class="fa-regular fa-paper-plane"></i> Send Message
+</button>
         </form>
 
       </div>

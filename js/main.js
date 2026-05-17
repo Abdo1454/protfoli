@@ -76,7 +76,30 @@ function  displayProjects(projects){
 
 getProjects();
 
+// send message
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
 
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const subject = document.querySelector(".subject").value;
+  const message = document.getElementById("message").value;
+
+  const phone = "201066250647";
+
+  const text = `
+ New Message From Portfolio
+
+ Name: ${name}
+ Email: ${email}
+ Subject: ${subject}
+ Message: ${message}
+`;
+
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+
+  window.open(url, "_blank");
+});
 
     //  <div class="project-card">
     //       <img id="imge" src="img/projectEcommrce.png" />
