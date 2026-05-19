@@ -125,7 +125,7 @@ body {
   background:
     radial-gradient(circle at top left, #0ea5e9 0%, transparent 30%),
     radial-gradient(circle at bottom right, #1e3a8a 0%, transparent 30%),
-    #081120;
+    var(--bg-main);
 }
 
 .header-content h1 {
