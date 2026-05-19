@@ -101,6 +101,22 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   window.open(url, "_blank");
 });
 
+// light-mode and dark-mode
+let varMode=1;
+let imgMode=document.getElementById("img-mode");
+imgMode.addEventListener("click",function (){
+  if(varMode==1){
+    varMode=0;
+    imgMode.setAttribute("src","./img/icon-moon.svg");
+    document.body.classList.add("light-mode");
+  }else{
+     varMode=1;
+    imgMode.setAttribute("src","./img/icon-sun.svg");
+    document.body.classList.remove("light-mode");
+  }
+})
+
+
     //  <div class="project-card">
     //       <img id="imge" src="img/projectEcommrce.png" />
     //       <div class="links-project">

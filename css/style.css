@@ -1,3 +1,37 @@
+:root{
+  
+  --bg-main: #081120;
+  --bg-secondary: #0f172a;
+  --bg-card: #0b1841;
+
+  --text-main: #ffffff;
+  --text-secondary: #94a3b8;
+
+  --primary-color: #38bdf8;
+  --secondary-color: #0ea5e9;
+
+  --border-color: rgba(255,255,255,0.08);
+
+  --navbar-bg: rgba(8,17,32,0.7);
+}
+/* LIGHT MODE */
+
+.light-mode{
+
+  --bg-main: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-card: #e2e8f0;
+
+  --text-main: #0f172a;
+  --text-secondary: #475569;
+
+  --primary-color: #0284c7;
+  --secondary-color: #0ea5e9;
+
+  --border-color: rgba(0,0,0,0.08);
+
+  --navbar-bg: rgba(255,255,255,0.7);
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +44,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #081120;
+  background: var(--bg-main);
   color: white;
 }
 
@@ -28,14 +62,14 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  background: rgba(8, 17, 32, 0.7);
+  background: var(--navbar-bg);
   backdrop-filter: blur(10px);
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .navbar h2 {
-  color: #38bdf8;
+  color: var(--primary-color);
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -48,7 +82,7 @@ body {
 }
 
 .nav-links a {
-  color: #dbeafe;
+  color: var(--text-main);
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
@@ -57,7 +91,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #38bdf8;
+  color: var(--secondary-color);
 }
 
 .nav-links a::after {
@@ -67,7 +101,7 @@ body {
   height: 2px;
   left: 0;
   bottom: -5px;
-  background: #38bdf8;
+  background: var(--primary-color);
   transition: 0.3s;
 }
 
@@ -97,14 +131,14 @@ body {
 .header-content h1 {
   font-size: 5rem;
   font-weight: 800;
-  color: white;
+  color: var(--text-main);
   line-height: 1.1;
 }
 
 .header-content p {
   margin-top: 20px;
   font-size: 1.2rem;
-  color: #94a3b8;
+  color: var(--text-secondary);
   max-width: 700px;
 }
 
@@ -149,7 +183,7 @@ body {
 
 .about-content {
   padding: 100px 8%;
-  background: #0f172a;
+  background: var(--bg-secondary);
 }
 
 .article-text {
@@ -172,7 +206,7 @@ body {
 }
 
 .article-text p {
-  color: #94a3b8;
+  color: var(--text-secondary);
   line-height: 1.8;
   max-width: 800px;
 }
@@ -192,7 +226,7 @@ body {
 
   border-radius: 24px;
 
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-secondary);
 
   border: 1px solid rgba(255, 255, 255, 0.08);
 
@@ -253,7 +287,7 @@ body {
 }
 /* skills-section */
 .skills-content{
-  background: hsl(225.33deg 60% 14.71%);
+  background: var(--bg-secondary);
   height: 40rem;
   display: flex;
   flex-direction: column;
@@ -326,10 +360,11 @@ body {
 }
 .tools li{
   /* width: 10%; */
-  background: #081120;
+  background: var(--bg-main);
   padding: 10px 20px;
   border-radius: 20px;
   border: .2px solid #fff;
+  color: var(--text-main);
 }
 .tools li:hover{
   color: #0ea5e9;
@@ -363,7 +398,7 @@ body {
 }
 
 .projects-content {
-  background: #081120;
+  background: var(--bg-main);
   padding: 100px 8%;
   display: flex;
   flex-direction: column;
@@ -372,7 +407,17 @@ body {
 
 .projects-content h2 {
   font-size: 3rem;
-  color: white;
+  color: var(--text-main);
+  margin-bottom: 50px;
+}
+.projects-content h4 {
+  font-size: 3rem;
+  color: #0284c7;
+  margin-bottom: 50px;
+}
+.projects-content p {
+  /* font-size: 3rem; */
+  color: var(--text-secondary);
   margin-bottom: 50px;
 }
 
@@ -394,7 +439,7 @@ body {
   height: 65vh;
   border-radius: 25px;
 
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-card);
 
   border: 1px solid rgba(255, 255, 255, 0.08);
 
@@ -472,7 +517,7 @@ body {
 } */
 
 .desc{
-  color: #cbd5e1;
+  color: var(--text-main);
   font-size: 0.95rem;
   text-align: center;
   padding: 0 20px;
@@ -522,6 +567,13 @@ align-items: center;
 .services-content h4{
   color: #0ea5e9;
 }
+.services-content h2{
+  color: var(--text-main);
+}
+.services-content p{
+  color: var(--text-secondary);
+}
+
 /* cards-services */
 .cards-services{
   padding: 50px 0px;
@@ -535,11 +587,17 @@ gap: 20px;
   display: flex;
   flex-direction: column;
   width: 40%;
-  background: #0b1841;
+  background:var(--bg-card);
   gap: 30px;
   border-radius:10px ;
   justify-content: center;
   padding: 40px 0px;
+}
+.card-ser h3{
+  color: var(--text-main);
+}
+.card-ser p{
+  color: var(--text-secondary);
 }
 .card-ser i{
   color: #0ea5e9;
@@ -549,12 +607,15 @@ gap: 20px;
   font-size: 14px;
   text-align: left;
 }
+.card-ser span{
+  color: var(--text-main);
+}
 .card-ser span i {
   font-size: 15px;
 }
 .services-content a{
   background: #0ea5e9;
-  color: #fff;
+  color: var(--text-main);
   text-decoration: none;
   list-style: none;
   padding: 15px 20px;
@@ -586,7 +647,7 @@ gap: 20px;
   gap: 40px;
 }
 .info  .info-contact{
-  background: #0b1841;
+  background:var(--bg-card);
   padding: 10px 20px;
   border-radius: 10px;
   width: 500px;
@@ -607,11 +668,11 @@ gap: 20px;
 
 }
 .info-contact a{
-  color: #fff;
+  color: var(--text-main);
   text-decoration: none;
 } 
 .info-contact p{
-  color: #94a3b8;
+  color: var(--text-secondary);
 }
 
 .info-small{
@@ -627,7 +688,7 @@ gap: 15px
   gap: 20px;
 }
 .icon-contact a{
-  color: #fff;
+  color: var(--text-main);
   background: #004466;
     width: 50px;
     font-size: 20px;
@@ -667,16 +728,16 @@ gap: 15px
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  background: #0b1841;
+  background: var(--bg-card);
   padding: 30px 60px;
   border-radius: 10px;
 }
 input{
-  background: #081120;
+  background: var(--bg-main);
   height: 50px;
   width: 300px;
-  color: #fff;
-  border: 2px solid #fff ;
+  color: var(--text-main);
+  border: 2px solid var(--text-main) ;
   border-radius:10px ;
 
 }
@@ -684,7 +745,7 @@ input{
   display: flex;
   justify-content: center;
   gap: 40px;
-  color: #fff;
+  color: var(--text-main);
   
 }
  .subject{
@@ -694,9 +755,9 @@ input{
 textarea{
   width: 650px;
   height: 150px;
-  background: #081120;
-  color: #fff;
- border: 2px solid #fff ;
+  background: var(--bg-main);
+  color: var(--text-main);
+ border: 2px solid var(--text-main) ;
   border-radius:10px ;
 }
 .form-content button{
