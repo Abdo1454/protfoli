@@ -418,7 +418,7 @@ body {
 .projects-content p {
   /* font-size: 3rem; */
   color: var(--text-secondary);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .projects-cards {
@@ -468,6 +468,13 @@ body {
   opacity: 0.2;
 }
 
+.links-project a{
+  color: var(--text-main);
+  list-style: none;
+  gap: 15px;
+
+
+}
 /* OVERLAY */
 
 .links-project {
@@ -557,6 +564,10 @@ body {
 .live-btn:hover,
 .github-btn:hover {
   transform: translateY(-3px);
+}
+.title-project{
+  color: var(--primary-color);
+  font-size: 20px;
 }
 /* services-content */
 .services-content{

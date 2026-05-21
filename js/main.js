@@ -48,9 +48,9 @@ function  displayProjects(projects){
           ${project.category}
         </p>
 
-        <h4>
+        <h3 class="title-project">
           ${project.title}
-        </h4>
+        </h3>
 
         <p class="desc">
           ${project.description}
