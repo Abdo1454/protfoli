@@ -13,6 +13,9 @@
   --border-color: rgba(255,255,255,0.08);
 
   --navbar-bg: rgba(8,17,32,0.7);
+   --icon-filter: brightness(0) saturate(100%) invert(100%);
+  --icon-hover: brightness(0) saturate(100%) invert(60%) sepia(99%)
+    saturate(749%) hue-rotate(165deg) brightness(97%) contrast(101%);
 }
 /* LIGHT MODE */
 
@@ -31,6 +34,9 @@
   --border-color: rgba(0,0,0,0.08);
 
   --navbar-bg: rgba(255,255,255,0.7);
+  
+  --icon-filter: brightness(0);
+
 }
 * {
   margin: 0;
@@ -108,7 +114,16 @@ body {
 .nav-links a:hover::after {
   width: 100%;
 }
+#img-mode {
+  width: 24px;
+  cursor: pointer;
+  filter: var(--icon-filter);
+  transition: filter 0.3s ease;
+}
 
+#img-mode:hover {
+  filter: var(--icon-hover);
+}
 /* HERO SECTION */
 
 .header-content {
