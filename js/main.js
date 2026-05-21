@@ -1,19 +1,18 @@
-let projectts=document.getElementById("projects");
+let projectts = document.getElementById("projects");
 
-function getProjects(){
-    fetch("../data.json").then(
-        (res)=>res.json()
-    ).then(
-        (data)=>{
-            displayProjects(data.projects);
-        }
-    ).catch((error)=>{
-        console.log("Error:",error);
+function getProjects() {
+  fetch("../data.json")
+    .then((res) => res.json())
+    .then((data) => {
+      displayProjects(data.projects);
+    })
+    .catch((error) => {
+      console.log("Error:", error);
     });
 }
 
-function  displayProjects(projects){
-      let cartona = "";
+function displayProjects(projects) {
+  let cartona = "";
 
   projects.forEach((project) => {
     cartona += `
@@ -58,9 +57,7 @@ function  displayProjects(projects){
 
         <div class="tech-project">
 
-          ${project.technologies
-            .map((tech) => `<p>${tech}</p>`)
-            .join("")}
+          ${project.technologies.map((tech) => `<p>${tech}</p>`).join("")}
 
         </div>
 
@@ -69,15 +66,12 @@ function  displayProjects(projects){
   });
 
   projectts.innerHTML = cartona;
-
 }
- 
-
 
 getProjects();
 
 // send message
-document.getElementById("contactForm").addEventListener("submit", function(e) {
+document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
   const name = document.getElementById("name").value;
@@ -102,34 +96,33 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 });
 
 // light-mode and dark-mode
-let varMode=1;
-let imgMode=document.getElementById("img-mode");
-imgMode.addEventListener("click",function (){
-  if(varMode==1){
-    varMode=0;
-    imgMode.setAttribute("src","./img/icon-moon.svg");
+let varMode = 1;
+let imgMode = document.getElementById("img-mode");
+imgMode.addEventListener("click", function () {
+  if (varMode == 1) {
+    varMode = 0;
+    imgMode.setAttribute("src", "./img/icon-moon.svg");
     document.body.classList.add("light-mode");
-  }else{
-     varMode=1;
-    imgMode.setAttribute("src","./img/icon-sun.svg");
+  } else {
+    varMode = 1;
+    imgMode.setAttribute("src", "./img/icon-sun.svg");
     document.body.classList.remove("light-mode");
   }
-})
+});
 
-
-    //  <div class="project-card">
-    //       <img id="imge" src="img/projectEcommrce.png" />
-    //       <div class="links-project">
-    //         <a><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-    //         <a><i class="fa-brands fa-github"></i></a>
-    //       </div>
-    //       <p>Problem: Client needed a high-converting product showcase page</p>
-    //       <h4>E-Commerce Landing Page</h4>
-    //       <p>A modern, responsive landing page designed to maximize conversions<br> with clean UI,
-    //          fast loading, and mobile-first approach.</p>
-    //          <div class="tech-project">
-    //           <p>HTML5</p>
-    //           <p>CSS3</p>
-    //           <p>JavaScript</p>
-    //          </div>
-    //     </div>
+//  <div class="project-card">
+//       <img id="imge" src="img/projectEcommrce.png" />
+//       <div class="links-project">
+//         <a><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+//         <a><i class="fa-brands fa-github"></i></a>
+//       </div>
+//       <p>Problem: Client needed a high-converting product showcase page</p>
+//       <h4>E-Commerce Landing Page</h4>
+//       <p>A modern, responsive landing page designed to maximize conversions<br> with clean UI,
+//          fast loading, and mobile-first approach.</p>
+//          <div class="tech-project">
+//           <p>HTML5</p>
+//           <p>CSS3</p>
+//           <p>JavaScript</p>
+//          </div>
+//     </div>

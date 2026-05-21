@@ -21,7 +21,7 @@
 
 .light-mode{
 
-  --bg-main: #f8fafc;
+  --bg-main: #d7dbdf;
   --bg-secondary: #ffffff;
   --bg-card: #e2e8f0;
 
@@ -673,7 +673,7 @@ gap: 20px;
   gap: 40px;
 }
 .info  .info-contact{
-  background:var(--bg-card);
+  background:var(--bg-secondary);
   padding: 10px 20px;
   border-radius: 10px;
   width: 500px;
@@ -686,7 +686,7 @@ gap: 20px;
 }
 .info-contact i{
   font-size: 20px;
-  background: #004466;
+  background: var(--bg-secondary);
   width: 50px;
   border-radius: 10px;
   padding: 10px;
@@ -707,6 +707,7 @@ gap: 15px
 .with-me{
   display: flex;
   flex-direction: column;
+  color: var(--text-main);
   gap: 30px;
 }
 .icon-contact{
@@ -715,7 +716,8 @@ gap: 15px
 }
 .icon-contact a{
   color: var(--text-main);
-  background: #004466;
+  background: var(--bg-secondary);
+  color: var(--secondary-color);
     width: 50px;
     font-size: 20px;
   border-radius: 10px;
@@ -735,7 +737,7 @@ gap: 15px
   padding: 15px 20px;
 
   background: hsl(142.13deg 76.22% 36.27%);
-  color: white;
+  color: var(--text-main);
 
   border-radius: 12px;
   text-decoration: none;
@@ -754,7 +756,7 @@ gap: 15px
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  background: var(--bg-card);
+  background: var(--bg-secondary);
   padding: 30px 60px;
   border-radius: 10px;
 }
@@ -778,6 +780,7 @@ input{
   width: 650px;
   height: 50px;
 }
+
 textarea{
   width: 650px;
   height: 150px;
@@ -792,6 +795,9 @@ textarea{
   border-radius:10px ;
 
   /* height: 650px; */
+}
+.input-content{
+  color: var(--text-main);
 }
 /* =========================
    MOBILE
