@@ -39,15 +39,14 @@ It showcases my skills, projects, and services as a Front-End Developer.
 
 
 
-/portfolio
+portfolio/
 │── index.html
 │── css/
-│ └── style.css
+│   └── style.css
 │── js/
-│ └── main.js
+│   └── main.js
 │── img/
 │── README.md
-
 
 ---
 
