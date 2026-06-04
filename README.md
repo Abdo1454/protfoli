@@ -85,6 +85,6 @@ The website is optimized for:
 To run this project locally:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/Abdo1454/portfolio.git
 cd portfolio
 open index.html
