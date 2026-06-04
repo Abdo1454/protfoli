@@ -74,9 +74,9 @@ The website is optimized for:
 
 ## 📬 Contact Me
 
-- Email: your-email@example.com  
-- LinkedIn: https://linkedin.com/in/your-profile  
-- GitHub: https://github.com/your-username  
+- Email: abdulrimelsayed@gmail.com  
+- LinkedIn:https://www.linkedin.com/in/abdulrhim-elsayed/
+- GitHub:https://github.com/Abdo1454  
 
 ---
 
