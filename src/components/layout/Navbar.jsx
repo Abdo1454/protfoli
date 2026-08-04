@@ -32,7 +32,7 @@ function Navbar() {
         {/* Menu */}
         <div className="collapse navbar-collapse" id="navbarNav">
 
-          <ul className="navbar-nav mx-auto flex-row justify-content-around">
+          <ul className="navbar-nav mx-auto flex-row justify-content-between align-items-center gap-3">
 
             <li className="nav-item">
               <a className="nav-link active" href="#home">
@@ -71,6 +71,7 @@ function Navbar() {
             </li>
 
           </ul>
+            <div className="d-flex align-items-center">
 
           <a href="#contact" className="btn btn-primary">
             Hire Me
@@ -82,6 +83,7 @@ function Navbar() {
             height="40"
             className="me-2 border rounded-circle"
           />
+                </div>
         </div>
 
       </div>
