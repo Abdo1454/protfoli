@@ -1,5 +1,9 @@
 import heroImage from "../../assets/images/img-Abdulrahim.png";
-
+import {
+  FaGithub,
+  FaDownload,
+  FaArrowRight,
+} from "react-icons/fa";
 function Hero() {
   return (
     <section
@@ -26,12 +30,12 @@ function Hero() {
             </p>
 
             <div className="d-flex gap-3 justify-content-center justify-content-lg-start">
-              <a href="#projects" className="btn btn-primary px-4">
-                View Projects
+              <a href="#projects" className="btn btn-primary px-5 py-3 rounded-5" >
+                View Projects <FaArrowRight className="ms-2" />
               </a>
 
-              <a href="#contact" className="btn btn-outline-light px-4">
-                Hire Me
+              <a href="#contact" className="btn btn-outline-light px-5 py-3 rounded-5">
+                Download CV <FaDownload />
               </a>
             </div>
           </div>
