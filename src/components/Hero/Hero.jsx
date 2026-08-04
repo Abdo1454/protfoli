@@ -16,12 +16,12 @@ function Hero() {
           {/* Text */}
           <div className="col-lg-6 text-center text-lg-start">
             <h1 className="display-3 fw-bold">
-              Hi, I'm Abdulrahim
+              Hi,<br/> I'm Abdulrahim
             </h1>
 
-            <h3 className="text-primary mb-3">
+            <h2 className="text-primary mb-3">
               Full Stack Developer
-            </h3>
+            </h2>
 
             <p className="lead mb-4">
               I build scalable, responsive web applications with a focus on
