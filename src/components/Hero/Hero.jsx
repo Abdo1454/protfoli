@@ -41,7 +41,7 @@ function Hero() {
           </div>
 
           {/* Image */}
-          <div className="col-lg-6 text-center mt-5 mt-lg-0">
+          <div className="col-lg-6 text-center mt-5 mt-lg-0 hero-image">
             <img
               src={heroImage}
               alt="Abdulrahim"

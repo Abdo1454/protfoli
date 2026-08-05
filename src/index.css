@@ -8,3 +8,10 @@
     );
     color: white;
 }
+.hero-image img {
+  width: 420px;
+  height: 520px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
