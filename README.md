@@ -1,18 +1,160 @@
-# React + Vite
+# Abdulrahim Elsayed | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive personal portfolio built with **React**, **Vite**, and **Bootstrap** to showcase my skills, projects, and experience as a Full Stack Developer.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 https://abdo1454.github.io/portfolio-website/
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Preview
 
-Note: This will impact Vite dev & build performances.
+A clean, responsive portfolio featuring:
 
-## Expanding the Oxlint configuration
+- Hero Section
+- About Me
+- Technical Skills
+- Featured Projects
+- Experience & Education
+- Contact Form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- JavaScript (ES6+)
+- Bootstrap 5
+- HTML5
+- CSS3
+
+### Backend
+
+- PHP
+- Laravel
+- MySQL
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Postman
+- Vite
+
+---
+
+## Features
+
+- Responsive Design
+- Modern UI
+- Interactive Components
+- Project Showcase
+- Contact Form (Formspree)
+- Professional Timeline
+- GitHub Pages Deployment
+
+---
+
+## Featured Projects
+
+### Atrak Perfume
+
+Full Stack perfume e-commerce platform with authentication, shopping cart, product management, and custom perfume builder.
+
+**Tech:** React, Laravel, PHP, MySQL, Bootstrap
+
+---
+
+### Portfolio V2
+
+Modern personal portfolio built using React and Bootstrap with responsive design and clean architecture.
+
+**Tech:** React, Bootstrap, JavaScript
+
+---
+
+### E-Commerce Clothing Store
+
+Responsive online clothing store featuring product listing, filtering, and shopping cart functionality.
+
+**Tech:** React, Bootstrap, REST API
+
+---
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── About/
+│   ├── Experience/
+│   ├── Hero/
+│   ├── Layout/
+│   ├── Projects/
+│   ├── Skills/
+│   └── Contact/
+├── data/
+├── App.jsx
+└── main.jsx
+
+public/
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Abdo1454/portfolio-website.git
+```
+
+Go to the project folder:
+
+```bash
+cd portfolio-website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Deploy to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+---
+
+## Contact
+
+**Abdulrahim Elsayed**
+
+- GitHub: https://github.com/Abdo1454
+- LinkedIn: https://www.linkedin.com/in/abdulrhim-elsayed/
+- Email: abdulrimelsayed@gmail.com
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
