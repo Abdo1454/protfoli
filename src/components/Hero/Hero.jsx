@@ -1,4 +1,5 @@
 import heroImage from "../../assets/images/img-Abdulrahim.png";
+import CV from "../../assets/Abdulrahim_Elsayed_Resume(1).pdf";
 import {
   FaGithub,
   FaDownload,
@@ -34,7 +35,7 @@ function Hero() {
                 View Projects <FaArrowRight className="ms-2" />
               </a>
 
-              <a href="#contact" className="btn btn-outline-light px-5 py-3 rounded-5">
+              <a href={CV} download className="btn btn-outline-light px-5 py-3 rounded-5">
                 Download CV <FaDownload />
               </a>
             </div>

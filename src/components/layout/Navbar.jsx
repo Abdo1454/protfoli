@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../assets/icons/icon-brand.png";
 import profile from "../../assets/images/profile.png";
-import CV from "../../assets/Abdulrahim_Elsayed_Resume(1).pdf";
 
 
 function Navbar() {
@@ -82,11 +81,10 @@ function Navbar() {
 
 
             <a
-              href={CV}
-              download
+              href="#contact"
               className="btn btn-primary px-4 rounded-3"
             >
-              Download CV
+              Hire Me
             </a>
 
 
