@@ -1,89 +1,18 @@
-# 🌐 Personal Portfolio - Abdulrhim Elsayed
+# React + Vite
 
-A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript**.  
-It showcases my skills, projects, and services as a Front-End Developer.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Live Demo
-🔗 https://abulrahim-elsayed.netlify.app/
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## 📸 Preview
-![Portfolio Preview](img/preview.png)
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
----
+Note: This will impact Vite dev & build performances.
 
-## 🛠️ Built With
+## Expanding the Oxlint configuration
 
-- HTML5
-- CSS3 (Flexbox + Grid + Animations)
-- JavaScript (Vanilla JS)
-- Font Awesome Icons
-
----
-
-## ✨ Features
-
-- 🌙 Dark / Light Mode toggle
-- 📱 Fully responsive design (Mobile, Tablet, Desktop)
-- 🧭 Smooth scrolling navigation
-- 📂 Projects section with interactive cards
-- 📬 Contact form UI
-- ⚡ Fast and lightweight
-
----
-
-## 📁 Project Structure
-
-
-
-portfolio/
-│── index.html
-│── css/
-│   └── style.css
-│── js/
-│   └── main.js
-│── img/
-│── README.md
-
----
-
-## 📱 Responsive Design
-
-The website is optimized for:
-
-- Mobile devices 📱
-- Tablets 📟
-- Desktop screens 💻
-
----
-
-## 🔗 Sections
-
-- Home
-- About Me
-- Skills & Technologies
-- Projects
-- Services
-- Contact
-
----
-
-## 📬 Contact Me
-
-- Email: abdulrimelsayed@gmail.com  
-- LinkedIn:https://www.linkedin.com/in/abdulrhim-elsayed/
-- GitHub:https://github.com/Abdo1454  
-
----
-
-## ⚡ Getting Started
-
-To run this project locally:
-
-```bash
-git clone https://github.com/Abdo1454/portfolio.git
-cd portfolio
-open index.html
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
