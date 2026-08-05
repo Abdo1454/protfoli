@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Atrak Perfume",
+      "category": "Full Stack Web Application",
+      "description": "A full-stack perfume e-commerce platform featuring authentication, product management, shopping cart, custom perfume builder, and responsive design.",
+      "image": "../img/atrak.png",
+      "technologies": [
+        "React",
+        "Bootstrap",
+        "Laravel",
+        "MySQL",
+        "REST API"
+      ],
+      "liveDemo": "https://your-demo-link.com",
+      "github": "https://github.com/Abdo1454/Atrak-Fullstack"
+    },
+    {
+      "id": 2,
+      "title": "Portfolio V2",
+      "category": "Personal Portfolio",
+      "description": "Modern responsive portfolio showcasing my skills, projects, and development journey with a clean and interactive user experience.",
+      "image": "../img/icon-brand.png",
+      "technologies": [
+        "React",
+        "Bootstrap",
+        "JavaScript"
+      ],
+      "liveDemo": "https://your-portfolio-link.com",
+      "github": "https://github.com/Abdo1454/portfolio-website"
+    },
+    {
+      "id": 3,
+      "title": "E-Commerce Clothing Store",
+      "category": "React.js Application",
+      "description": "Responsive e-commerce application with product catalog, shopping cart, filtering, and modern UI built using React.",
+      "image": "../img/Ecommerce.png",
+      "technologies": [
+        "React",
+        "Bootstrap",
+        "REST API",
+        "JavaScript"
+      ],
+      "liveDemo": "https://sixteen-clothing-shop.netlify.app/",
+      "github": "https://github.com/Abdo1454"
+    }
+  ]
+}
