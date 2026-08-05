@@ -1,10 +1,7 @@
 import heroImage from "../../assets/images/img-Abdulrahim.png";
-import CV from "../../assets/Abdulrahim_Elsayed_Resume(1).pdf";
-import {
-  FaGithub,
-  FaDownload,
-  FaArrowRight,
-} from "react-icons/fa";
+import CV from "../../assets/Abdulrahim_Elsayed_CV.pdf";
+import { FaDownload, FaArrowRight } from "react-icons/fa";
+
 function Hero() {
   return (
     <section
@@ -17,7 +14,7 @@ function Hero() {
           {/* Text */}
           <div className="col-lg-6 text-center text-lg-start">
             <h1 className="display-3 fw-bold">
-              Hi,<br/> I'm Abdulrahim
+              Hi,<br /> I'm Abdulrahim
             </h1>
 
             <h2 className="text-primary mb-3">
@@ -31,12 +28,20 @@ function Hero() {
             </p>
 
             <div className="d-flex gap-3 justify-content-center justify-content-lg-start">
-              <a href="#projects" className="btn btn-primary px-5 py-3 rounded-5" >
+              <a
+                href="#projects"
+                className="btn btn-primary px-5 py-3 rounded-5"
+              >
                 View Projects <FaArrowRight className="ms-2" />
               </a>
 
-              <a href={CV} download className="btn btn-outline-light px-5 py-3 rounded-5">
-                Download CV <FaDownload />
+              <a
+                href={CV}
+                download="Abdulrahim_Elsayed_CV.pdf"
+                className="btn btn-outline-light px-5 py-3 rounded-5"
+                aria-label="Download Abdulrahim Elsayed CV"
+              >
+                Download CV <FaDownload className="ms-2" />
               </a>
             </div>
           </div>
@@ -45,8 +50,8 @@ function Hero() {
           <div className="col-lg-6 text-center mt-5 mt-lg-0 hero-image">
             <img
               src={heroImage}
-              alt="Abdulrahim"
-              className="img-fluid "
+              alt="Abdulrahim Elsayed"
+              className="img-fluid"
               style={{ maxWidth: "380px" }}
             />
           </div>
